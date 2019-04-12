@@ -3,7 +3,7 @@
 }
 
 html {
-  background-image: url('https://i.gifer.com/61g.gif');
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/tumblr_nmvrs6ubl71qze3hdo1_r1_500.gif');
   background-size: 100%;
 }
 
@@ -12,26 +12,60 @@ html {
 }
 
 .nav {
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 0 30px;
-  background-color: rgba(0, 0, 0, 0.568);
+  background-color: rgba(255, 255, 255, 0.568);
   padding: 10px;
   border-radius: 10px;
+  border: 2px solid black;
 }
 
 h1{
-  color: white;
+  color: rgb(0, 0, 0);
+  border: 3px solid white;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
 ul{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .Smurf{
-  color: white;
-  background-color: rgba(0, 0, 0, 0.568);
+  color: black;
+  background-color: rgba(255, 255, 255, 0.568);
+  border: 2px solid black;
   border-radius: 10px;
   margin: 30px;
   width: 300px;
+}
+
+form{
+  background-color: rgba(0, 0, 0, 0.568);
+  height: 125px;
+  margin-top: 40px;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input{
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+form button{
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.473);
 }
